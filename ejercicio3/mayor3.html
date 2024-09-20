@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>saludo</title>
+</head>
+<body>
+  <!--Enunciado: Crea un formulario en PHP que solicite al usuario 
+  tres números. Al enviar el formulario, el programa debe indicar 
+  cuál de los tres números es el mayor.-->
+  <h1>Introduzca tres números</h1>
+  <form method="post" action="mayor3.php">
+    <label for="n1">Número 1:</label>
+    <input type="text" id="n1" name="n1" required>
+    <label for="n2">Número 2:</label>
+    <input type="text" id="n2" name="n2" required>
+    <label for="n3">Número 3:</label>
+    <input type="text" id="n3" name="n3" required>
+    <input type="submit" value="calcular">
+  </form>
+</body>
+</html>
