@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>saludo</title>
+</head>
+<body>
+  <!--Enunciado: Diseña un formulario que pida al usuario la distancia 
+  a recorrer (en kilómetros) y la velocidad promedio esperada (en km/h). 
+  Al enviar el formulario, el programa debe calcular y mostrar el tiempo 
+  que tomará el viaje en horas.-->
+  <h1>Cálculo del Tiempo de Viaje</h1>
+  <form method="post" action="viaje.php">
+    <label for="distancia">distancia (km):</label>
+    <input type="text" id="distancia" name="distancia" required>
+    <label for="velocidad">Velocidad (km/h):</label>
+    <input type="text" id="velocidad" name="velocidad" required>
+    <input type="submit" value="calcular">
+  </form>
+</body>
+</html>
