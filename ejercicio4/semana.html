@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>semana</title>
+  </head>
+  <body>
+    <!--Enunciado: Diseña un formulario que pida al usuario un número del 1 al 7. 
+  Al enviar el formulario, el programa debe retornar el día de la semana 
+  correspondiente (ejemplo: 1 = Lunes, 2 = Martes, etc.). Si el número está fuera 
+  de ese rango, muestra un mensaje de error.-->
+    <h1>Día de la semana</h1>
+    <p>Introduzca un número del 1 al 7:</p>
+    <form method="get" action="semana.php">
+      <label for="numero">número:</label>
+      <input type="text" id="numero" name="numero" required>
+      <input type="submit" value="enviar">
+    </form>
+  </body>
+</html>
